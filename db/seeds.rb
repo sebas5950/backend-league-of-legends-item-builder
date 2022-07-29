@@ -1,3 +1,166 @@
+Item.create( 
+
+    name: "Galeforce", 
+    stats: {
+        ad: 60
+        as: 20
+        crit: 20
+    },
+    desc: "UNIQUE - CLOUDBURST: Dash.png Dash to the target location, though not through terrain, and fire three homing missiles at the most wounded enemy within 750 units of you at the end of the dash, prioritizing enemy champions. Each missile deals 60 - 105 (based on level) (+ 15% bonus AD) magic damage, for a total of 180 - 315 (based on level) (+ 45% bonus AD), increased by 0% - 50% (based on target's missing health) (110 second cooldown; 200 - 425 range)."
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/11/Galeforce_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110224748"
+    )
+Item.create(
+    name: "The Collector",
+    stats: {
+        ad: 55
+        crit: 20
+        leth: 12
+    },
+    desc: "UNIQUE - DEATH AND TAXES: If you deal post-mitigation damage that would leave a champion below 5% of their maximum health, execute them. Champion kills grant you an additional 25 Gold 25.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/The_Collector_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111004932"
+    )
+Item.create(
+    name: "Rapid Firecannon",
+    stats: {
+        as: 35
+        crit: 20
+        movespeed: 7
+    },
+    desc:"UNIQUE - ENERGIZED: Moving and basic attacking generates Energize stacks, up to 100.
+    UNIQUE - SHARPSHOOTER: When fully Kircheis Shard item.png Energized, your next basic attack deals 120 bonus magic damage on-hit. Energized attacks gain 35% bonus range, capped at 150.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/48/Rapid_Firecannon_item_HD.png/revision/latest/scale-to-width-down/64?cb=20180326192026"
+    )
+Item.create(
+    name: "Infinity Edge",
+    stats: {
+        ad: 70
+        crit: 20
+    },
+    desc:"UNIQUE - PERFECTION: Gain 35% bonus critical strike damage if you have at least 60% critical strike chance.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest?cb=20201104234931"
+    )
+Item.create(
+    name: "Lord Dominik's Regards",
+    stats: {
+        ad: 30
+        crit: 20
+        armorpen: 30
+    },
+    desc:"UNIQUE - GIANT SLAYER: Deal 0% - 15% (based on maximum health difference) bonus physical damage against enemy champions with greater maximum health than you.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Lord_Dominik%27s_Regards_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110232840"
+    )
+Item.create(
+    name: "Kraken Slayer"
+    stats: {
+        ad: 65
+        as: 25
+        crit: 20
+    },
+    desc: "UNIQUE - BRING IT DOWN: Basic attacks on-attack grant a stack for 3 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks on-attack to deal 50 (+ 40% bonus AD) bonus true damage on-hit.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e9/Kraken_Slayer_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110232124"
+    )
+Item.create(
+    name: "Muramana",
+    stats: {
+        ad: 35
+        abilityhaste: 15
+        mana: 860
+    },
+    desc: "UNIQUE - AWE: Grants bonus attack damage equal to 2.5% maximum mana.
+    UNIQUE - SHOCK: Basic attacks on-hit against champions deal 1.5% maximum mana bonus physical damage. Dealing ability damage to champions deals (Melee role.png 3.5% / Ranged role.png 2.7%) maximum mana (+ 6% AD) bonus physical damage. Can only be triggered on the same target once every 6.5 seconds from the same attack or cast.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/07/Muramana_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110234739"
+    )
+Item.create(
+    name: "Essence Reaver",
+    stats: {
+        ad: 45
+        abilityhaste: 20
+        crit: 20
+    },
+    desc: "UNIQUE - SPELLBLADE: After using an ability, your next basic attack within 10 seconds deals 100% base AD (+ 40% bonus AD) bonus physical damage on-hit and restores mana equal to 40% base AD (+ 16% bonus AD) (1.5 (begins after using the empowered attack) second cooldown).",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Essence_Reaver_item_HD.png/revision/latest/scale-to-width-down/64?cb=20210728194612"
+    )
+Item.create(
+    name: "Chemtech Putrifier",
+    stats: {
+        ap: 60
+        abilityhaste: 20
+        mpregen: 100
+    },
+    desc: "UNIQUE - PUFFCAP TOXIN: Dealing magic damage to enemy champions inflicts them with 25% Grievous Wounds icon.png Grievous Wounds for 3 seconds. Heal power icon.png Healing or Hybrid resistances icon.png shielding allied champions (excluding yourself) empowers your and their next instance of damage against enemy champions within 5 seconds to apply 40% Grievous Wounds icon.png Grievous Wounds for 3 seconds.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Chemtech_Putrifier_item.png/revision/latest?cb=20201118202835"
+    )
+Item.create(
+    name:"Rylai's Crystal Scepter",
+    stats:{
+        ap: 75
+        hp: 400
+    },
+    desc: "UNIQUE - RIMEFROST: Dealing ability damage Slow icon.png slows affected units by 30% for 1 second.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Rylai%27s_Crystal_Scepter_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111001957"
+    )
+Item.create(
+    name:"Zonya's Hourglass",
+    stats:{
+        ap: 65
+        abilityhaste: 10
+        armor: 45
+    },
+    desc: "UNIQUE - STASIS: Put yourself in stasis for 2.5 seconds, rendering you untargetable and invulnerable for the duration but also unable to move, declare basic attacks, cast abilities, use summoner spells, or activate items (120 second cooldown).",
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Zhonya%27s_Hourglass_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111012842"
+    )
+Item.create(
+    name:"Moonstone Renewer",
+    stats:{
+        ap: 40
+        abilityhaste: 20
+        hp: 200
+        mpregen: 100
+    },
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Moonstone_Renewer_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110234334"
+    )
+Item.create(
+    name: "Shadowflame",
+    stats:{
+        ap: 100
+        hp: 200
+    },
+    desc:"UNIQUE - CINDERBLOOM: Dealing magic damage to champions ignores 10 - 20 (based on target's current health) of their magic resistance, increased to maximum value if the they were affected by a shield within the last 5 seconds.",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Shadowflame_item_HD.png/revision/latest/scale-to-width-down/64?cb=20211116192225"
+    )
+Item.create(
+    name: "Night Harvester",
+    stats:{
+        ap: 90
+        abilityhaste: 25
+        hp: 300
+    },
+    desc: "UNIQUE - SOULREND: Damaging an enemy champion deals 125 (+ 15% AP) bonus magic damage and grants you 25% bonus movement speed for 1.5 seconds, with the duration extending on subsequent triggers (30 (per champion) second cooldown).",
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d8/Night_Harvester_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110235321"
+    )
+Item.create(
+    name:"Hextech Rocketbelt",
+    stats:{
+        ap: 90
+        abilityhaste: 15
+        hp: 250
+        magicpen: 6
+    },
+    desc: "UNIQUE - SUPERSONIC: Dash 125 to 275 units in the target direction, though not through terrain, unleashing an arc of 7 rockets in the same direction that deal 125 (+ 15% AP) magic damage. Afterwards, gain 30% bonus movement speed while moving towards nearby enemy champions for 1.5 seconds (40 second cooldown).
+    Supersonic resets the user's basic attack timer.",
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/8/8c/Hextech_Rocketbelt_item.png/revision/latest?cb=20201118204847"
+    )
+
+
+
+
+
+
+
+
+
+
+
 Champion.create(
     name: "Aatrox",
     title: "the Darkin Blade",
@@ -3672,72 +3835,72 @@ Champion.create(
     )
 Champion.create(
     name: "Senna",
-title: "the Redeemer",
-blurb: "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to...",
-info: {
-attack: 7,
-defense: 2,
-magic: 6,
-difficulty: 7
-},
-stats: {
-    hp: 530,
-    hpperlevel: 89,
-    mp: 350,
-    mpperlevel: 45,
-    movespeed: 330,
-    armor: 28,
-    armorperlevel: 4.7,
-    spellblock: 30,
-    spellblockperlevel: 1.3,
-    attackrange: 600,
-    hpregen: 3.5,
-    hpregenperlevel: 0.55,
-    mpregen: 11.5,
-    mpregenperlevel: 0.4,
-    crit: 0,
-    critperlevel: 0,
-    attackdamage: 50,
-    attackdamageperlevel: 0,
-    attackspeedperlevel: 4,
-    attackspeed: 0.625
-    }
-    image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg"
+    title: "the Redeemer",
+    blurb: "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to...",
+    info: {
+    attack: 7,
+    defense: 2,
+    magic: 6,
+    difficulty: 7
+    },
+    stats: {
+        hp: 530,
+        hpperlevel: 89,
+        mp: 350,
+        mpperlevel: 45,
+        movespeed: 330,
+        armor: 28,
+        armorperlevel: 4.7,
+        spellblock: 30,
+        spellblockperlevel: 1.3,
+        attackrange: 600,
+        hpregen: 3.5,
+        hpregenperlevel: 0.55,
+        mpregen: 11.5,
+        mpregenperlevel: 0.4,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 50,
+        attackdamageperlevel: 0,
+        attackspeedperlevel: 4,
+        attackspeed: 0.625
+        }
+        image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg"
     )
 Champion.create(
     name: "Seraphine",
-title: "the Starry-Eyed Songstress",
-blurb: "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She...",
-info: {
-attack: 0,
-defense: 0,
-magic: 0,
-difficulty: 0
-},
-stats: {
-    hp: 570,
-    hpperlevel: 104,
-    mp: 440,
-    mpperlevel: 40,
-    movespeed: 325,
-    armor: 19,
-    armorperlevel: 4.2,
-    spellblock: 30,
-    spellblockperlevel: 1.3,
-    attackrange: 525,
-    hpregen: 6.5,
-    hpregenperlevel: 0.6,
-    mpregen: 8,
-    mpregenperlevel: 1,
-    crit: 0,
-    critperlevel: 0,
-    attackdamage: 55,
-    attackdamageperlevel: 3,
-    attackspeedperlevel: 1,
-    attackspeed: 0.669
+    title: "the Starry-Eyed Songstress",
+    blurb: "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She...",
+    info: {
+    attack: 0,
+    defense: 0,
+    magic: 0,
+    difficulty: 0
     },
-    image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg"
-)
+    stats: {
+        hp: 570,
+        hpperlevel: 104,
+        mp: 440,
+        mpperlevel: 40,
+        movespeed: 325,
+        armor: 19,
+        armorperlevel: 4.2,
+        spellblock: 30,
+        spellblockperlevel: 1.3,
+        attackrange: 525,
+        hpregen: 6.5,
+        hpregenperlevel: 0.6,
+        mpregen: 8,
+        mpregenperlevel: 1,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 55,
+        attackdamageperlevel: 3,
+        attackspeedperlevel: 1,
+        attackspeed: 0.669
+        },
+        image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg"
+    )
 Champion.create(
     name: "Sett",
     title: "the Boss",
@@ -3771,7 +3934,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg"
-)
+    )
 Champion.create(
     name: "Shaco",
     title: "the Demon Jester",
@@ -3804,8 +3967,8 @@ Champion.create(
         attackspeedperlevel: 3,
         attackspeed: 0.694
         },
-image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg"
-)
+    image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg"
+    )
 Champion.create(
     name: "Shen",
     title: "the Eye of Twilight",
@@ -3839,7 +4002,7 @@ Champion.create(
         attackspeed: 0.751
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg"
-)
+    )
 Champion.create(
     title: "the Half-Dragon",
     blurb: "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan...",
@@ -3872,7 +4035,7 @@ Champion.create(
         attackspeed: 0.658
         },
         image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg"
-)
+    )
 Champion.create(
     name: "Singed",
     title: "the Mad Chemist",
@@ -3906,7 +4069,7 @@ Champion.create(
         attackspeed: 0.613
         },
         image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg"
-)
+    )
 Champion.create(
     name: "Sion",
     title: "The Undead Juggernaut",
@@ -3940,7 +4103,7 @@ Champion.create(
         attackspeed: 0.679
         },
         image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg"
-)
+    )
 Champion.create(
     name: "Sivir",
     title: "the Battle Mistress",
@@ -3974,7 +4137,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg"
-)
+    )
 Champion.create(
     name: "Skarner",
     title: "the Crystal Vanguard",
@@ -4008,7 +4171,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg"
-)
+    )
 Champion.create(
     name: "Sona",
     title: "Maven of the Strings",
@@ -4042,7 +4205,7 @@ Champion.create(
         attackspeed: 0.644
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg"
-)
+    )
 Champion.create(
     name: "Soraka",
     title: "the Starchild",
@@ -4076,7 +4239,7 @@ Champion.create(
         attackspeed: 0.625
         },
         image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg"
-)
+    )
 Champion.create(
     name: "Swain",
     title: "the Noxian Grand General",
@@ -4110,7 +4273,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg"
-)
+    )
 Champion.create(
     name: "Sylas",
     title: "the Unshackled",
@@ -4144,7 +4307,7 @@ Champion.create(
         attackspeed: 0.645
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg"
-)
+    )
 Champion.create(
     name: "Syndra",
     title: "the Dark Sovereign",
@@ -4178,7 +4341,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg"
-)
+    )
 Champion.create(
     name: "Tahm Kench",
     title: "The River King",
@@ -4212,7 +4375,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg"
-)
+    )
 Champion.create(
     name: "Taliyah",
     title: "the Stoneweaver",
@@ -4246,7 +4409,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg"
-)
+    )
 Champion.create(
     name: "Talon",
     title: "the Blade's Shadow",
@@ -4280,7 +4443,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg"
-)
+    )
 Champion.create(
     name: "Taric",
     title: "the Shield of Valoran",
@@ -4314,7 +4477,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg"
-)
+    )
 Champion.create(
     name: "Teemo",
     title: "the Swift Scout",
@@ -4348,7 +4511,7 @@ Champion.create(
         attackspeed: 0.69
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg"
-)
+    )
 Champion.create(
     name: "Thresh",
     title: "the Chain Warden",
@@ -4382,7 +4545,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg"
-)
+    )
 Champion.create(
     name: "Tristana",
     title: "the Yordle Gunner",
@@ -4416,7 +4579,7 @@ Champion.create(
         attackspeed: 0.656
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg"
-)
+    )
 Champion.create(
     name: "Trundle",
     title: "the Troll King",
@@ -4450,7 +4613,7 @@ Champion.create(
         attackspeed: 0.67
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg"
-)
+    )
 Champion.create(
     name: "Tryndamere",
     title: "the Barbarian King",
@@ -4484,7 +4647,7 @@ Champion.create(
         attackspeed: 0.67
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg"
-)
+    )
 Champion.create(
     name: "Twisted Fate",
     title: "the Card Master",
@@ -4518,7 +4681,7 @@ Champion.create(
         attackspeed: 0.651
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg"
-)
+    )
 Champion.create(
     name: "Twitch",
     title: "the Plague Rat",
@@ -4552,7 +4715,7 @@ Champion.create(
         attackspeed: 0.679
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg"
-)
+    )
 Champion.create(
     name: "Udyr",
     title: "the Spirit Walker",
@@ -4586,7 +4749,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg"
-)
+    )
 Champion.create(
     name: "Urgot",
     title: "the Dreadnought",
@@ -4620,7 +4783,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg"
-)
+    )
 Champion.create(
     name: "Varus",
     title: "the Arrow of Retribution",
@@ -4654,7 +4817,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg"
-)
+    )
 Champion.create(
     name: "Vayne",
     title: "the Night Hunter",
@@ -4688,7 +4851,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg"
-)
+    )
 Champion.create(
     name: "Veigar",
     title: "the Tiny Master of Evil",
@@ -4722,7 +4885,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg"        
-)
+    )
 Champion.create(
     name: "Vel'Koz",
     title: "the Eye of the Void",
@@ -4756,7 +4919,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg"
-)
+    )
 Champion.create(
     name: "Vex",
     title: "the Gloomist",
@@ -4790,7 +4953,7 @@ Champion.create(
         attackspeed: 0.669
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg"
-)
+    )
 Champion.create(
     name: "Vi",
     title: "the Piltover Enforcer",
@@ -4824,7 +4987,7 @@ Champion.create(
         attackspeed: 0.644
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg"
-)
+    )
 Champion.create(
     name: "Viego",
     title: "The Ruined King",
@@ -4858,7 +5021,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg"
-)
+    )
 Champion.create(
     name: "Viktor",
     title: "the Machine Herald",
@@ -4892,7 +5055,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg"
-)
+    )
 Champion.create(
     name: "Vladimir",
     title: "the Crimson Reaper",
@@ -4926,7 +5089,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg"
-)
+    )
 Champion.create(
     name: "Volibear",
     title: "the Relentless Storm",
@@ -4960,7 +5123,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg"
-)
+    )
 Champion.create(
     name: "Warwick",
     title: "the Uncaged Wrath of Zaun",
@@ -4994,7 +5157,7 @@ Champion.create(
         attackspeed: 0.638
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg"
-)
+    )
 Champion.create(
     name: "Xayah",
     title: "the Rebel",
@@ -5028,7 +5191,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg"
-)
+    )
 Champion.create(
     name: "Xerath",
     title: "the Magus Ascendant",
@@ -5062,7 +5225,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg"
-)
+    )
 Champion.create(
     name: "Xin Zhao",
     title: "the Seneschal of Demacia",
@@ -5096,7 +5259,7 @@ Champion.create(
         attackspeed: 0.645
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg"
-)
+    )
 Champion.create(
     name: "Yasuo",
     title: "the Unforgiven",
@@ -5130,7 +5293,7 @@ Champion.create(
         attackspeed: 0.697
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg"
-)
+    )
 Champion.create(
     name: "Yone",
     title: "the Unforgotten",
@@ -5164,7 +5327,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg"
-)
+    )
 Champion.create(
     name: "Yorick",
     title: "Shepherd of Souls",
@@ -5198,7 +5361,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg"
-)
+    )
 Champion.create(
     name: "Yuumi",
     title: "the Magical Cat",
@@ -5232,7 +5395,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg"
-)
+    )
 Champion.create(
     name: "Zac",
     title: "the Secret Weapon",
@@ -5266,7 +5429,7 @@ Champion.create(
         attackspeed: 0.736
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg"
-)
+    )
 Champion.create(
     name: "Zed",
     title: "the Master of Shadows",
@@ -5300,7 +5463,7 @@ Champion.create(
         attackspeed: 0.651
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg"
-)
+    )
 Champion.create(
     name: "Zeri",
     title: "The Spark of Zaun",
@@ -5334,7 +5497,7 @@ Champion.create(
         attackspeed: 0.658
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg"
-)
+    )
 Champion.create(
     name: "Ziggs",
     title: "the Hexplosives Expert",
@@ -5368,7 +5531,7 @@ Champion.create(
         attackspeed: 0.656
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg"
-)
+    )
 Champion.create(
     name: "Zilean",
     title: "the Chronokeeper",
@@ -5402,7 +5565,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg"
-)
+    )
 Champion.create(
     name: "Zoe",
     title: "the Aspect of Twilight",
@@ -5436,7 +5599,7 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg"
-)
+    )
 Champion.create(
     name: "Zyra",
     title: "Rise of the Thorns",
@@ -5470,4 +5633,4 @@ Champion.create(
         attackspeed: 0.625
         },
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg"
-)
+    )
