@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  attack: MyString
+  health: MyString
+  magic: MyString
+  desc: MyString
+  image: MyString
+
+two:
+  name: MyString
+  attack: MyString
+  health: MyString
+  magic: MyString
+  desc: MyString
+  image: MyString
