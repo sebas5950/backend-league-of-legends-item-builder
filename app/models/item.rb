@@ -1,6 +1,6 @@
 class Item < ApplicationRecord
 
-    has_many :champions
-    has_many :champions, through: :builds
+    belongs_to :build
+    belongs_to :champion
     
 end
