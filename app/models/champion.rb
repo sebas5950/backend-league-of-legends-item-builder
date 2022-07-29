@@ -1,6 +1,6 @@
 class Champion < ApplicationRecord
 
     has_many :items
-    has_many :items, through: :builds
+    has_many :builds, through: :items
     
 end
