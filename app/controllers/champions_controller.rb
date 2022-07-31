@@ -10,7 +10,7 @@ class ChampionsController < ApplicationController
 
     private
 
-    def find_hero
+    def find_champion
         @champion = Champion.find(params[:id])
     end
 end
