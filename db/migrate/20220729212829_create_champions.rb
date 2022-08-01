@@ -4,10 +4,10 @@ class CreateChampions < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :title
       t.string :blurb
-      t.string :attack
-      t.string :defense
-      t.string :magic
-      t.string :difficulty
+      t.integer :attack
+      t.integer :defense
+      t.integer :magic
+      t.integer :difficulty
       t.string :image
 
       t.timestamps

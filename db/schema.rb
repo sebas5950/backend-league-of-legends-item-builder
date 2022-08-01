@@ -11,14 +11,24 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_07_29_214903) do
+  create_table "builds", force: :cascade do |t|
+    t.string "name"
+    t.integer "champion_id", null: false
+    t.integer "item_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["champion_id"], name: "index_builds_on_champion_id"
+    t.index ["item_id"], name: "index_builds_on_item_id"
+  end
+
   create_table "champions", force: :cascade do |t|
     t.string "name"
     t.string "title"
     t.string "blurb"
-    t.string "attack"
-    t.string "defense"
-    t.string "magic"
-    t.string "difficulty"
+    t.integer "attack"
+    t.integer "defense"
+    t.integer "magic"
+    t.integer "difficulty"
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -26,13 +36,23 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_29_214903) do
 
   create_table "items", force: :cascade do |t|
     t.string "name"
-    t.string "attack"
-    t.string "health"
-    t.string "magic"
+    t.integer "attack"
+    t.integer "health"
+    t.integer "magic"
     t.string "desc"
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "email"
+    t.string "password"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "builds", "champions"
+  add_foreign_key "builds", "items"
 end

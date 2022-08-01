@@ -111,7 +111,7 @@ Item.create(
     health: 5,
     magic: 9,
     desc: "UNIQUE - STARLIT GRACE: When affecting champions with attacks or abilities in combat, heal the nearby allied champion (excluding yourself) with the most missing health for 60 (2 second cooldown).
-    Each second spent in combat with champions grants 5% heal and shield power, stacking up to 4 times for maximum of 20%."
+    Each second spent in combat with champions grants 5% heal and shield power, stacking up to 4 times for maximum of 20%.",
     image:"https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Moonstone_Renewer_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110234334"
     )
 Item.create(
@@ -1341,7 +1341,7 @@ Champion.create(
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg"
     )
 Champion.create(
-    name: "Shyvana"
+    name: "Shyvana",
     title: "the Half-Dragon",
     blurb: "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan...",
     attack: 8,
