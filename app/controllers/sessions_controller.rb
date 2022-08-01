@@ -1,19 +1,43 @@
 class SessionsController < ApplicationController
-  def create 
-        
-    user = User.find_by(name:params[:name])
-    
-    if user&.authenticate(params[:password])
-    session[:user_id] = user.id
-
-      render json: user, status: :ok
-    else 
-      render json: {errors: "Invalid Password or Username"}, status: :unauthorized
+  class SessionsController < ApplicationController
+    def create
+        @user = User.find_by(username: session_params[:username])
+      
+        if @user && @user.authenticate(session_params[:password])
+          login!
+          render json: {
+            logged_in: true,
+            user: @user
+          }
+        else
+          render json: { 
+            status: 401,
+            errors: ['no such user, please try again']
+          }
+        end
     end
-  end
-
-  def delete
-    session.delete :user_id
-    head :no_content
-  end 
+    def is_logged_in?
+        if logged_in? && current_user
+          render json: {
+            logged_in: true,
+            user: current_user
+          }
+        else
+          render json: {
+            logged_in: false,
+            message: 'no such user'
+          }
+        end
+    end
+    def destroy
+          logout!
+          render json: {
+            status: 200,
+            logged_out: true
+          }
+    end
+    private
+    def session_params
+          params.require(:user).permit(:username, :password)
+    end
   end
