@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
     include ActionController::Cookies
     rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
     rescue_from ActiveRecord::RecordInvalid, with: :record_invalid
-    # skip_before_action :verify_authenticity_token
+    skip_before_action :verify_authenticity_token
     # before_action :authorized_user
     # helper_method :login!, :logged_in?, :current_user, :authorized_user?, :logout!, :set_user
 

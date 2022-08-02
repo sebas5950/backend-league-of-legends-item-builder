@@ -7,7 +7,7 @@ Item.create(
     magic: 9,
  
     desc: "UNIQUE - CLOUDBURST: Dash.png Dash to the target location, though not through terrain, and fire three homing missiles at the most wounded enemy within 750 units of you at the end of the dash, prioritizing enemy champions. Each missile deals 60 - 105 (based on level) (+ 15% bonus AD) magic damage, for a total of 180 - 315 (based on level) (+ 45% bonus AD), increased by 0% - 50% (based on target's missing health) (110 second cooldown; 200 - 425 range).",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/11/Galeforce_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110224748"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/11/Galeforce_item_HD.png"
     )
 Item.create(
     name: "The Collector",
@@ -17,7 +17,7 @@ Item.create(
     magic: 9,
 
     desc: "UNIQUE - DEATH AND TAXES: If you deal post-mitigation damage that would leave a champion below 5% of their maximum health, execute them. Champion kills grant you an additional 25 Gold 25.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/The_Collector_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111004932"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/The_Collector_item_HD.png"
     )
 Item.create(
     name: "Rapid Firecannon",
@@ -28,7 +28,7 @@ Item.create(
 
     desc:"UNIQUE - ENERGIZED: Moving and basic attacking generates Energize stacks, up to 100.
     UNIQUE - SHARPSHOOTER: When fully Kircheis Shard item.png Energized, your next basic attack deals 120 bonus magic damage on-hit. Energized attacks gain 35% bonus range, capped at 150.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/48/Rapid_Firecannon_item_HD.png/revision/latest/scale-to-width-down/64?cb=20180326192026"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/48/Rapid_Firecannon_item_HD.png"
     )
 Item.create(
     name: "Infinity Edge",
@@ -38,7 +38,7 @@ Item.create(
     magic: 9,
 
     desc:"UNIQUE - PERFECTION: Gain 35% bonus critical strike damage if you have at least 60% critical strike chance.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest?cb=20201104234931"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png"
     )
 Item.create(
     name: "Lord Dominik's Regards",
@@ -47,7 +47,7 @@ Item.create(
     magic: 9,
 
     desc:"UNIQUE - GIANT SLAYER: Deal 0% - 15% (based on maximum health difference) bonus physical damage against enemy champions with greater maximum health than you.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Lord_Dominik%27s_Regards_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110232840"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Lord_Dominik%27s_Regards_item_HD.png"
     )
 Item.create(
     name: "Kraken Slayer",
@@ -57,7 +57,7 @@ Item.create(
     magic: 9,
 
     desc: "UNIQUE - BRING IT DOWN: Basic attacks on-attack grant a stack for 3 seconds, up to 2 stacks. At 2 stacks, the next basic attack consumes all stacks on-attack to deal 50 (+ 40% bonus AD) bonus true damage on-hit.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e9/Kraken_Slayer_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110232124"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e9/Kraken_Slayer_item_HD.png"
     )
 Item.create(
     name: "Muramana",
@@ -68,7 +68,7 @@ Item.create(
 
     desc: "UNIQUE - AWE: Grants bonus attack damage equal to 2.5% maximum mana.
     UNIQUE - SHOCK: Basic attacks on-hit against champions deal 1.5% maximum mana bonus physical damage. Dealing ability damage to champions deals (Melee role.png 3.5% / Ranged role.png 2.7%) maximum mana (+ 6% AD) bonus physical damage. Can only be triggered on the same target once every 6.5 seconds from the same attack or cast.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/07/Muramana_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110234739"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/07/Muramana_item_HD.png"
     )
 Item.create(
     name: "Essence Reaver",
@@ -77,7 +77,7 @@ Item.create(
     magic: 9,
 
     desc: "UNIQUE - SPELLBLADE: After using an ability, your next basic attack within 10 seconds deals 100% base AD (+ 40% bonus AD) bonus physical damage on-hit and restores mana equal to 40% base AD (+ 16% bonus AD) (1.5 (begins after using the empowered attack) second cooldown).",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Essence_Reaver_item_HD.png/revision/latest/scale-to-width-down/64?cb=20210728194612"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Essence_Reaver_item_HD.png"
     )
 Item.create(
     name: "Chemtech Putrifier",
@@ -87,7 +87,7 @@ Item.create(
     magic: 9,
 
     desc: "UNIQUE - PUFFCAP TOXIN: Dealing magic damage to enemy champions inflicts them with 25% Grievous Wounds icon.png Grievous Wounds for 3 seconds. Heal power icon.png Healing or Hybrid resistances icon.png shielding allied champions (excluding yourself) empowers your and their next instance of damage against enemy champions within 5 seconds to apply 40% Grievous Wounds icon.png Grievous Wounds for 3 seconds.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Chemtech_Putrifier_item.png/revision/latest?cb=20201118202835"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Chemtech_Putrifier_item.png"
     )
 Item.create(
     name:"Rylai's Crystal Scepter",
@@ -95,7 +95,7 @@ Item.create(
     health: 5,
     magic: 9,
     desc: "UNIQUE - RIMEFROST: Dealing ability damage Slow icon.png slows affected units by 30% for 1 second.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Rylai%27s_Crystal_Scepter_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111001957"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Rylai%27s_Crystal_Scepter_item_HD.png"
     )
 Item.create(
     name:"Zonya's Hourglass",
@@ -103,7 +103,7 @@ Item.create(
     health: 5,
     magic: 9,
     desc: "UNIQUE - STASIS: Put yourself in stasis for 2.5 seconds, rendering you untargetable and invulnerable for the duration but also unable to move, declare basic attacks, cast abilities, use summoner spells, or activate items (120 second cooldown).",
-    image:"https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Zhonya%27s_Hourglass_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201111012842"
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Zhonya%27s_Hourglass_item_HD.png"
     )
 Item.create(
     name:"Moonstone Renewer",
@@ -112,7 +112,7 @@ Item.create(
     magic: 9,
     desc: "UNIQUE - STARLIT GRACE: When affecting champions with attacks or abilities in combat, heal the nearby allied champion (excluding yourself) with the most missing health for 60 (2 second cooldown).
     Each second spent in combat with champions grants 5% heal and shield power, stacking up to 4 times for maximum of 20%.",
-    image:"https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Moonstone_Renewer_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110234334"
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Moonstone_Renewer_item_HD.png"
     )
 Item.create(
     name: "Shadowflame",
@@ -120,7 +120,7 @@ Item.create(
     health: 5,
     magic: 9,
     desc:"UNIQUE - CINDERBLOOM: Dealing magic damage to champions ignores 10 - 20 (based on target's current health) of their magic resistance, increased to maximum value if the they were affected by a shield within the last 5 seconds.",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Shadowflame_item_HD.png/revision/latest/scale-to-width-down/64?cb=20211116192225"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Shadowflame_item_HD.png"
     )
 Item.create(
     name: "Night Harvester",
@@ -128,7 +128,7 @@ Item.create(
     health: 5,
     magic: 9,
     desc: "UNIQUE - SOULREND: Damaging an enemy champion deals 125 (+ 15% AP) bonus magic damage and grants you 25% bonus movement speed for 1.5 seconds, with the duration extending on subsequent triggers (30 (per champion) second cooldown).",
-    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d8/Night_Harvester_item_HD.png/revision/latest/scale-to-width-down/64?cb=20201110235321"
+    image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d8/Night_Harvester_item_HD.png"
     )
  Item.create(
     name:"Hextech Rocketbelt",
@@ -139,7 +139,7 @@ Item.create(
     
     desc: "UNIQUE - SUPERSONIC: Dash 125 to 275 units in the target direction, though not through terrain, unleashing an arc of 7 rockets in the same direction that deal 125 (+ 15% AP) magic damage. Afterwards, gain 30% bonus movement speed while moving towards nearby enemy champions for 1.5 seconds (40 second cooldown).
     Supersonic resets the user's basic attack timer.",
-    image:"https://static.wikia.nocookie.net/leagueoflegends/images/8/8c/Hextech_Rocketbelt_item.png/revision/latest?cb=20201118204847"
+    image:"https://static.wikia.nocookie.net/leagueoflegends/images/8/8c/Hextech_Rocketbelt_item.png"
     )
 
 
