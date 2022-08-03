@@ -5,7 +5,7 @@ class ChampionsController < ApplicationController
     end
 
     def show
-        render json: @champion, serializer: ChampionWithItemSerializer
+        render json: @champion
     end
 
     private
