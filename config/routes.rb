@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :champions, only: [:index, :show]
+  resources :champions, only: [:index, :show] do 
+    resources :items, only: [:index, :show]
+  end
+  resources :builds, only: [:create, :destroy]
   resources :items, only: [:index, :show]
   resources :users, only: [:show, :create]
 
