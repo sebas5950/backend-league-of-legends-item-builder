@@ -1870,9 +1870,13 @@ Champion.create(
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg"
     )
 
-    Build.create(
+Build.create(
         item_id: 5,
+        champion_id: 1
+    )
+Comment.create(
         champion_id: 1,
-        comment: "cool build",
-        name: "new build"
+        user_id: 1,
+        text: "Good Build, many wins",
+        user_id: 1
     )

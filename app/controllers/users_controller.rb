@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+0class UsersController < ApplicationController
     before_action :authorize, only: [:show]
 
     def create
