@@ -10,15 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_08_01_192247) do
+ActiveRecord::Schema[7.0].define(version: 2022_08_04_145528) do
+  create_table "build_items", force: :cascade do |t|
+    t.integer "item_id"
+    t.integer "build_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["build_id"], name: "index_build_items_on_build_id"
+  end
+
   create_table "builds", force: :cascade do |t|
     t.string "name"
+    t.integer "item_id"
+    t.integer "user_id", null: false
     t.integer "champion_id", null: false
-    t.integer "item_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["champion_id"], name: "index_builds_on_champion_id"
-    t.index ["item_id"], name: "index_builds_on_item_id"
+    t.index ["user_id"], name: "index_builds_on_user_id"
   end
 
   create_table "champions", force: :cascade do |t|
@@ -53,6 +62,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_01_192247) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "build_items", "builds"
   add_foreign_key "builds", "champions"
-  add_foreign_key "builds", "items"
+  add_foreign_key "builds", "users"
 end

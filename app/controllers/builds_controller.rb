@@ -1,5 +1,4 @@
 class BuildsController < ApplicationController
-    
     def index
         render json: Build.all, status: :ok
     end
@@ -16,10 +15,11 @@ class BuildsController < ApplicationController
     end
 
     def create
-        build_params[:items_array].each do | item_id |
-            item = Item.find(item_id)
-            build = Build.create!(build_params)
-        end
+        # build_params[:items_array].each do | item_id |
+        #     item = Item.find(item_id)
+        #     build = Build.create(build_params)
+        # end
+        build = Build.create!(build_params) 
         render json: build, status: :created
     end
     
@@ -31,6 +31,6 @@ class BuildsController < ApplicationController
     private
     
     def build_params
-        params.permit(:name, :champion_id, items_array:[])
+        params.permit(:name, :champion_id, :user_id)
     end
 end
