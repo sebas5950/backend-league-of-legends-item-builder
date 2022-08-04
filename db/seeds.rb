@@ -1,3 +1,5 @@
+
+
 Item.create( 
 
     name: "Galeforce", 
@@ -1866,4 +1868,11 @@ Champion.create(
     difficulty: 7,
    
     image:"http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg"
+    )
+
+    Build.create(
+        item_id: 5,
+        champion_id: 1,
+        comment: "cool build",
+        name: "new build"
     )
