@@ -16,7 +16,10 @@ class BuildsController < ApplicationController
     end
 
     def create
-        build = Build.create!(build_params)
+        build_params[:items_array].each do | item_id |
+            item = Item.find(item_id)
+            build = Build.create!(build_params)
+        end
         render json: build, status: :created
     end
     
@@ -28,6 +31,6 @@ class BuildsController < ApplicationController
     private
     
     def build_params
-        params.permit(:name, :champion_id, :item_id)
+        params.permit(:name, :champion_id, items_array:[])
     end
 end

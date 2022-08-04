@@ -1,7 +1,13 @@
 class ItemsController < ApplicationController
 
     def index
-        render json: Item.all
+        if params[:champion_id]
+            champion = Champion.find(params[:champion_id])
+            items = champion.items
+        else
+            items = Item.all
+        end
+        render json: items
     end
 
     def show
