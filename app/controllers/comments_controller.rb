@@ -1,4 +1,8 @@
 class CommentsController < ApplicationController
+    before_action :find_comment, only: [:update, :destroy]
+    def index
+        render json: Comment.all
+    end
 
     def show
         champion = Champion.find(params[:champion_id])
@@ -7,7 +11,8 @@ class CommentsController < ApplicationController
     end
     
     def create
-        comment = Comment.create(comment_params)
+        champion = find_champion
+        comment = champion.comments.create(comment_params)
         render json: comment, status: :created
     end
 
@@ -21,6 +26,10 @@ class CommentsController < ApplicationController
         render json: @comment, status: :accepted
     end
     private
+
+    def find_champion
+        Champion.find(params[:champion_id])
+    end
 
     def find_comment
         @comment = Comment.find(params[:id])

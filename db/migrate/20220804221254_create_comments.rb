@@ -4,7 +4,7 @@ class CreateComments < ActiveRecord::Migration[7.0]
       
       t.string :text
 
-      t.belongs_to :user, null: false, foreign_key: true
+      t.belongs_to :user, foreign_key: true
       t.belongs_to :champion, null: false, foreign_key: true
       t.timestamps
     end

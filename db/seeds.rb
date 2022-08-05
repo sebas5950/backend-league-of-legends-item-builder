@@ -1878,5 +1878,4 @@ Comment.create(
         champion_id: 1,
         user_id: 1,
         text: "Good Build, many wins",
-        user_id: 1
     )
