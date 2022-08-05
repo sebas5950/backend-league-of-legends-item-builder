@@ -29,6 +29,6 @@ class BuildsController < ApplicationController
     private
     
     def build_params
-        params.permit(:name, :comment, :champion_id, :item_id)
+        params.permit(:comment, :champion_id, :item_id)
     end
 end

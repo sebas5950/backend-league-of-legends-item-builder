@@ -2,9 +2,17 @@ Rails.application.routes.draw do
   resources :champions, only: [:index, :show] do 
     resources :items, only: [:index, :show]
   end
-  resources :builds, only: [:create, :destroy]
+  resources :champions, only: [:index, :show] do
+    resources :comments, only:[:index, :show, :create, :destroy, :update]
+  end
+  resources :comments, only:[:index, :show, :create, :destroy, :update]
+  resources :builds, only: [:index, :create, :destroy]
   resources :items, only: [:index, :show]
   resources :users, only: [:show, :create]
+
+
+
+
 
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
